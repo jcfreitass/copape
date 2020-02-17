@@ -1,0 +1,437 @@
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* nav */
+.start{
+    background-image: linear-gradient(to bottom right, #dfecf9, #dde8f7);
+}
+.navColor{
+    background: #1c4b7b ;
+    box-shadow: 0px -1px 28px #191616;
+   
+}
+.brandFont{
+    font-size: 30px;
+    letter-spacing:5px;
+    color: #eae3e3!important;
+    
+}
+a:link 
+{ 
+    text-decoration:none; 
+} 
+.navItemColor{
+    font-size: 18px;
+    color: #eae3e3!important;
+}
+
+.btn-professor{
+    background-color: #eae3e3 !important;
+    color: #1c4b7b !important;
+}
+/* End nav */
+
+
+
+/* form */
+@media (min-width: 768px){
+
+    .marginForm { 
+        margin-left: 23%;
+        margin-top: 5%;
+    }
+    .marginHeaderForm{
+        margin-left: 33%;
+        margin-top: 5%;
+    }
+
+    
+}
+.underline{
+    height: 3px;
+    width: 100%;
+    background: #2a67a5;
+    margin-left: 41.5%;
+}
+.buttonForm{
+    padding: 6px 37px 6px 36px;
+    background: #1c4b7b ;
+    border: #1c4b7b ;
+    margin-left: 31%;
+}
+
+/* End form */
+/* Footer */
+.footer{
+    background: #1c4b7b;
+    padding: 37px 0px 20px 0px;
+    margin-top: 9%;
+  
+}
+ul li {
+    color: #eae3e3;
+}
+@media (min-width: 768px){
+
+    .marginSocial{
+        margin-top: 2%;
+    }
+    .marginInstagram{
+        margin-left: 39%;
+    }
+    .marginYotube{
+        margin-top: -1%;
+    }
+}
+@media (max-width:768px){
+    .marginInstagram{
+        margin-left: 16%;
+    }
+    .marginYotube{
+        margin-top: -1%;
+    }
+    .marginSocial{
+        margin-top: 4%;
+    }
+    .marginDetalhesFooter{
+        margin-left:-6%;
+    }
+}
+/* End footer */
+
+/* header */
+.tituloPlanodeEnsino {
+    background-image: url(../imagens/x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 768px){
+    .marginHeader{
+        margin: 7% 0% 7% 25%;
+    }
+    .marginHeaderAuth{
+        margin: 9% 0% 9% 25%;
+    }
+}
+@media (max-width:768px){
+    .marginHeader{
+        margin: 11% 0% 11% 0%;
+    }
+}
+/* end header */
+
+
+/* login */
+
+.marginLogin{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.styleLogin{
+    background: #1c4b7b;
+    color: #eae3e3;
+}
+
+/* Choose type profile */
+
+.marginChoose{
+    margin: 9% 0% 6% 0%;
+}
+.buttonChooseTeacher{
+
+    margin: 8% 0% 8% 2%;
+    padding: 4px 30px 4px 30px;
+    color: #f4f4f4;
+    background-color: #386594;
+    border-color: #386594;
+
+}
+.buttonChooseStudent{
+
+    margin: 8% 0% 8% 3%;
+    padding: 4px 42px 4px 42px;
+    color: #f4f4f4;
+    background-color: #386594;
+    border-color: #386594;
+
+}
+.marginChoseTeacher{
+    margin-left:30%;
+}
+.marginBottomChose{
+    margin-bottom:10%;
+}
+.styleWriting{
+    color:#3e4a50;
+    font-family: 'Indie Flower', cursive;
+    font-size: 340%;
+}
+.styleWriting{
+    color:#3e4a50;
+    font-family: 'Indie Flower', cursive;
+    font-size: 340%!important;
+}
+
+/*chooseCourse*/
+
+.styleCourseChoose{
+    color:#3e4a50;
+    font-family: 'Indie Flower', cursive;
+    font-size: 173% !important;
+   margin-top: -1%!important;
+}
+
+.tableChooseCourse{
+    width: 52%!important;
+    min-height: 100px;
+    background: #f3f3f3;
+}
+
+.buttonEndCourse{
+    background:#2b65a0;
+    border-color:#4c88c4; 
+    color: #fefefe;
+    letter-spacing:1.5px;
+}
+.buttonEndCourse:hover {
+    background: #2872bd; 
+    color: #fefefe;
+  }
+@media (min-width: 768px){
+    .tableChooseCourse{
+        width: 52%!important;
+        margin-left: 24%;
+    }
+    .marginButtonFinishChoose{
+        margin:0% 0% 46% 357%;;
+    }
+}
+@media (max-width:768px){
+    .tableChooseCourse{
+        width: 100%!important;
+    }
+}
+
+/* Alterar Senha */
+@media (min-width: 768px){
+    .marginCardPass{
+        margin: 3% 0% 3% 31.5%;
+    }
+    .buttonCardPass{
+        margin: 8% 0% 0% 36.5%;
+    }
+}
+
+/* PlanoAula */
+
+.marginButtonValidate{
+    margin-top :4%;
+}
+
+/*Auth User */
+
+.marginRolling{
+    margin-bottom:4%;
+} 
+
+.marginButtonStudent{
+    margin: 8.3% 0% 6% 30%;
+}
+/* Update User */
+@media (min-width: 768px){
+    .alertUpdateUser{
+    margin: 5% 0% 0% 25%; 
+    }
+}
+/* handle plan */
+
+.marginButtonAddPlan{
+    margin: 5% 0% 5% 17%;
+}
+.accordionStyle{
+    width: 60%;
+    margin-left: 22%;
+  
+}
+.accordionBox{
+    width: 104.8%;
+    margin-left: -2.4%;
+    border-top: solid #ffffff;
+    border-left: solid #ffffff;
+    border-right: solid #ffffff;
+    background: #ffffff;
+    margin-top: -0.5%;
+
+}
+.accordionBox2{
+    width: 104.8%;
+    margin-left: -2.4%;
+    border-left: solid #ffffff;
+    border-right: solid #ffffff;
+    border-bottom: solid #ffffff;
+    background: #ffffff;
+    margin-top: -0.5%;
+}
+.btnAccordion{
+    background: #d5d6d7!important;
+    border-left: solid #ffffff!important;
+    border-right: solid #ffffff!important;
+    border-top: solid #ffffff!important;
+    border-bottom-right-radius: 0!important;
+    border-bottom-left-radius: 0!important;
+
+}
+.btnAccordion2{
+    background: #d5d6d7!important;
+    border: solid #ffffff!important;
+    border-radius: 0!important;
+    border-bottom-right-radius: 4px!important;
+    border-bottom-left-radius: 4px!important;
+}
+.tableAccordion{
+    background: #ffffff;
+    height: 250px;
+}
+.widthBtnAccordion{
+    width:140%;
+}
+
+/* end handle plan */
+
+/* Management User */
+
+.navTabby{
+    background: #1c4b7bf2;
+    color: #eae3e3!important;
+}
+.boddyTabby{
+    background: #1c4b7b;
+    padding: 3% 3% 3% 3%;
+}
+.titleTabby{
+    color: #eae3e3;
+    margin-bottom: 3%;
+}
+.marginHeaderManagement{
+    margin: 7% 0% 20% 25%;
+}
+.management{
+    margin-top:-11%;
+    
+}
+.styleSearchManagement{
+    background: #1a3540;
+    padding: 10px 0px 10px 0px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0px -1px 16px #191616;
+}
+.boddyTableManagement{
+    background: #f3f3f3 ;
+    box-shadow: 0px -1px 16px #191616;
+}
+.marginSearchManagement{
+    margin-left: 9%;
+}
+.marginNameSearcManagement{
+    margin-left: 24%;
+}
+/* End Management User */
+.index{
+    background-image: linear-gradient(to bottom right, #c7d9ec, #e1e5ea)
+}
+
+/* Table*/
+
+@media (min-width: 768px){
+    .tableScroll{
+        display: block; 
+        overflow-y: scroll; 
+        height: 600px;
+        background: #f3f3f3;
+    }
+    
+    .tableDados{
+        margin-top: -19%;
+    }
+}
+@media (max-width: 768px){
+    .tableScroll{
+        display: block; 
+        overflow-y: scroll; 
+        height: 600px;
+        background: #f3f3f3;
+    }
+}
+
+/* header home*/
+
+.headerHome{
+    background-image: url(../imagens/pesquisa5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 768px){
+
+    .marginVOPE {
+        margin-left: 19%;
+        margin-top: 13%;
+        margin-bottom: 30%;
+    }
+    .section_overlay{
+        background: rgba(33, 33, 33, .79);
+    }
+}
+@media (max-width: 768px){
+    
+    .section_overlay{
+        background: rgba(4, 4, 4, .79);
+    }
+    .sizePhoto{
+        height: 540px;
+    }
+
+    .marginVOPE{
+        margin-top: 43%;
+        margin-bottom: 13%;
+    }
+}
+/* End header home */
+
+/* search */
+
+.styleSearch{
+
+    background: #1a3540d1;
+    padding: 10px 0px 10px 0px;
+    box-shadow: 0px 0px 16px #191616;
+
+}
+.buttonSearch{
+    border: white;
+    color: white;
+}
+
+@media (min-width: 768px){
+
+    .marginSearch{
+        margin-left: 24%;
+    }
+    .marginNameSearc{
+        margin-left: 9%;
+    }
+    .search{
+        margin-top:3%;
+    }
+    .styleSearch{
+        border-radius: 11px;
+    }
+}
+
+/* end search */
+

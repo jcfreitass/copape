@@ -1,0 +1,112 @@
+/* Este é o arquivo referente a 
+estilização do planoEnsino.html e 
+cadastroPlanoEnsino.html */
+
+/*    header     */
+
+@media (min-width: 768px){
+    
+    .marginHeader{
+        margin: 7% 0% 7% 25%;
+    }
+    
+   
+}
+@media (max-width:768px){
+    .marginHeader{
+        margin: 6% 0% 6% 0%;
+    }
+}
+.tituloPlanodeEnsino{
+    background-image: url(../imagens/x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*    Body plano    */
+.planoEnsino{
+    background: #4c7aa9;
+}
+ul li{
+    font-size: 17px;
+}
+.tituloDetalhes{
+    font-size: 22px;
+    color: #212529!important;
+}
+@media (min-width: 768px){
+
+    .detalhesPlano{
+        margin: 5% 0% 4% 21%;
+    }
+    .marginVersaoAtual{
+        margin-left: 24%;
+    }
+    .tableScroll{
+        display: block; 
+        overflow-y: scroll; 
+        height: 250px;
+        background: #f3f3f3;
+    }
+    .marginUploud{
+        margin: 0% 0% 5% 24%;
+    }
+}
+@media (max-width:768px){
+    .detalhesPlano{
+        margin: 4% 0% 0% -8%;
+    }
+}
+/*  Modal  */ 
+
+.buttonModal{
+    background: none;
+    border: none;
+}
+
+/* Pagina inserir plano de ensino */
+
+.formInput{
+    background: #f5f2f2;
+    width: 68%;
+}
+.letraForm{
+    color: white;
+    font-size: 18px;
+}
+
+@media (min-width: 768px){
+    .marginFormInserir{
+        margin: 5% 0% 4% 27%;
+    }
+    .marginButtonForm{
+        margin: 4% 0% 0% 30%;
+    }
+    .marginButtonEdit{
+        margin: 4% 0% -1% 20%;
+    }
+    .marginButtonEdit2{
+        margin-top: 4%;
+    }
+    .marginButtonRefuse{
+        margin:0% -2% 4% 40%;
+    }
+    .marginButtonFinish{
+        margin: 2% 0% 0% 22%;
+    }
+    .marginRadio{
+        margin-left:2%;
+    }
+
+}
+@media (max-width:768px){
+    .marginButtonForm{
+        margin: 2% 0% 0% 30%;
+    }
+    
+    .marginButtonEdit{
+        margin: 2% 0% 0% 27%;
+    }
+    .marginButtonEdit2{
+        margin: 2% 0% 0% 25.5%;
+    }
+}
