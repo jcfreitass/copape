@@ -1,4 +1,4 @@
-<p align="center"><img src="../../Imagens/indexFoto.jpg"></p>
+<p align="center"> ![indexFoto](https://user-images.githubusercontent.com/23061472/74698949-1f6c4400-51de-11ea-870a-ec32c6c7148b.JPG)</p>
 
 ## Compartilhamento Online de Plano de Aula e Plano de Ensino
 
