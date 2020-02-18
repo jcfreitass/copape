@@ -1,4 +1,4 @@
-<p align="center"><img src="../Imagens/indexFoto.jpg"></p>
+<p align="center"><img src="../../Imagens/indexFoto.jpg"></p>
 
 ## Compartilhamento Online de Plano de Aula e Plano de Ensino
 
